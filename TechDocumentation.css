@@ -1,0 +1,166 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Comfortaa', cursive;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14pt;
+}
+
+nav {
+    background-color: #203354;
+}
+
+nav a {
+    font-family: 'Baloo Bhai', cursive;
+}
+
+nav .navbar-nav li a {
+    color: #D3D3D3 !important;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    background-color: #FFF;
+    color: rgba(23, 23, 23, 0.47);
+    padding-top: 3%;
+}
+
+code {
+    background-color: #D3D3D3;
+    color: #000000;
+    text-align: center;
+    padding: 1%;
+    display: block;
+    margin: auto;
+}
+
+main {
+
+}
+
+.container {
+    padding-top: 2%;
+    padding-left: 6%;
+}
+
+#trademark {
+    font-size: 10pt;
+}
+
+#company-footer {
+    font-size: 12pt;
+}
+
+#content {
+    padding-left: 3%;
+    padding-top: 1%;
+}
+
+.titles {
+    font-family: 'Comfortaa', cursive;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #7386D5;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+#logo {
+    color: #D3D3D3 !important;
+    font-size: 20pt;
+}
+
+#Quick-Nav {
+    background-color: #D3D3D3;
+    color: #000000;
+    float: left;
+    text-align: left;
+    padding-top: 2%;
+}
+
+#Quick-Nav a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#Quick-Nav a:hover {
+    color: #6495ed;
+}
+
+#moveable {
+    position: fixed;
+    padding-top: 2%;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+
+/*Aadditional CSS from https://mladenplavsic.github.io/bootstrap-navbar-sidebar/*/
+
+.navbar.fixed-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030
+}
+
+@media (min-width: 768px) {
+    .navbar.fixed-left {
+        bottom: 0;
+        width: 232px;
+        flex-flow: column nowrap;
+        align-items: flex-start
+    }
+
+    .navbar.fixed-left .navbar-collapse {
+        flex-grow: 0;
+        flex-direction: column;
+        width: 100%
+    }
+
+    .navbar.fixed-left .navbar-collapse .navbar-nav {
+        flex-direction: column;
+        width: 100%
+    }
+
+    .navbar.fixed-left .navbar-collapse .navbar-nav .nav-item {
+        width: 100%
+    }
+
+    .navbar.fixed-left .navbar-collapse .navbar-nav .nav-item .dropdown-menu {
+        top: 0
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar.fixed-left {
+        right: auto
+    }
+
+    .navbar.fixed-left .navbar-nav .nav-item .dropdown-toggle:after {
+        border-top: .3em solid transparent;
+        border-left: .3em solid;
+        border-bottom: .3em solid transparent;
+        border-right: none;
+        vertical-align: baseline
+    }
+
+    .navbar.fixed-left .navbar-nav .nav-item .dropdown-menu {
+        left: 100%
+    }
+}

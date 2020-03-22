@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Montserrat|Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="SurveyForm.css">
+    <title>NovaCyber Perspective Employee Survey Form</title>
+</head>
+
+<body>
+<header>
+    <h1 id="title">Perspective Employee Survey Form</h1>
+    <h3>NovaCyber, LLC</h3>
+</header>
+<main>
+    <div class="wrapper">
+        <p id="description">Please fill out the following form as accurately as possible so we can place you where you
+            will succeed</p>
+        <br>
+        <div class="row">
+            <div class="col-lg-6">
+                <br><br><br><br><br><br><br><br><br>
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>NovaCyber Humans Resources Department</p>
+                    <p>5555 Tysons Corner Ave</p>
+                    <p>Tyson's Corner, VA 22315</p>
+                    <p>(703)555-5555</p>
+                </div>
+
+            </div>
+            <div class="col-lg-6">
+                <form id="survey-form" action="">
+                    <div class="form-group row">
+                        <label class="col-form-label" for="name" id="name-label">Name*:</label>
+                        <input class="col-sm-6" id="name" type="text" placeholder="Enter Full Name" required>
+                    </div>
+
+                    <div class="form-group row">
+                        <label class="col-form-label" for="email" id="email-label">Email*:</label>
+                        <input class="col-sm-6" id="email" type="email" placeholder="Enter Email Address" required>
+                    </div>
+
+                    <div class="form-group row">
+                        <label class="col-form-label" for="number" id="number-label">Travel Distance:</label>
+                        <input class="col-sm-6" id="number" type="number" max="0" min="300"
+                               placeholder="Enter Distance Willing to Travel for Work (Between 0-300 miles)">
+                    </div>
+
+                    <div class="form-group row">
+                        <label class="col-form-label">Select Job Title</label>
+                        <label for="dropdown"></label>
+                        <select id="dropdown" name="role" class="form-control col-sm-6" required>
+                            <option value="disable">Select Job Title</option>
+                            <option value="Application/Software Developer">Application/Software Developer</option>
+                            <option value="Communications/IT Consultante">Communications/IT Consultante</option>
+                            <option value="Digital Forensics Analyst/Investigator">Digital Forensics
+                                Analyst/Investigator
+                            </option>
+                            <option value="Business Process Engineer/Business Analyst">Business Process
+                                Engineer/Business
+                                Analyst
+                            </option>
+                            <option value="Exercise Planner">Exercise Planner</option>
+                            <option value="Graphic Analyst">Graphic Analyst</option>
+                            <option value="Incident Response Analyst">Incident Response Analyst</option>
+                            <option value="Information Systems Engineer">Information Systems Engineer</option>
+                            <option value="Internet Applications Technologist">Internet Applications Technologist
+                            </option>
+                            <option value="Malware Analyst">Malware Analyst</option>
+                            <option value="Network Security Specialist">Network Security Specialist</option>
+                            <option value="Operations Analyst">Operations Analyst</option>
+                            <option value="Operations Planner">Operations Planner</option>
+                            <option value="Policy Analyst">Policy Analyst</option>
+                            <option value="Program Manager">Program Manager</option>
+                            <option value="Systems Operations & Maintenance Professional">Systems Operations &
+                                Maintenance
+                                Professional
+                            </option>
+                            <option value="Technical Writer/Technical Editor">Technical Writer/Technical Editor</option>
+                            <option value="Threat/Intrusion/Data/Intelligence and Counter Intelligence Analyst">
+                                Threat/Intrusion/Data/Intelligence and Counter Intelligence Analyst
+                            </option>
+                            <option value="Vulnerability Analyst">Vulnerability Analyst</option>
+                            <option value="Web Content Specialist">Web Content Specialist</option>
+                            <option value="Web/System Administration/SharePoint Developer Support">Web/System
+                                Administration/SharePoint Developer Support
+                            </option>
+                        </select>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="remote" class="col-form-label">Remote Work Option</label>
+                        <hr>
+                        <hr>
+                        <div class="form-check col-sm-6">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="remote"
+                                   value="option1" checked>
+                            <label class="form-check-label" for="remote">
+                                Available for Remote Work
+                            </label>
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="NA Remote"
+                                   value="option2">
+                            <label class="form-check-label" for="NA Remote">
+                                Not Available for Remote Work
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="agency" class="col-form-label">Agency Experience</label>
+                        <hr>
+                        <hr>
+                        <div class="form-check col-sm-6">
+                            <input class="form-check-input" type="checkbox" value="DOD" id="agency">
+                            <label class="form-check-label" for="agency">
+                                DOD
+                            </label>
+                            <input class="form-check-input" type="checkbox" value="DHS" id="agency2">
+                            <label class="form-check-label" for="agency2">
+                                DHS
+                            </label>
+                            <input class="form-check-input" type="checkbox" value="Military" id="agency3">
+                            <label class="form-check-label" for="agency3">
+                                Military
+                            </label>
+                            <input class="form-check-input" type="checkbox" value="NASA" id="agency4">
+                            <label class="form-check-label" for="agency4">
+                                NASA
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-form-label" for="comments" id="label-comments">Additional Comments:</label>
+                        <textarea class="col-sm-6" id="comments"
+                                  placeholder="Enter Any Relevant Comments/Information Needed for Placement"
+                                  rows="5">
+                        </textarea>
+                    </div>
+
+                    <button class="btn btn-light col-sm-2" type="submit" id="submit">Apply</button>
+                    <br>
+                    <br>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<footer>&copy; NovaCyber, LLC</footer>
+</body>
+</html>

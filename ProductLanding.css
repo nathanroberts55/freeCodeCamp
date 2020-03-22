@@ -1,0 +1,119 @@
+nav {
+    color: #FFFFFF;
+}
+
+nav a {
+    font-family: abolition, sans-serif;
+    color: #FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: abolition, sans-serif;
+}
+
+p {
+    font-family: Calibri, sans-serif;
+    font-size: 11pt;
+    text-align: justify;
+}
+footer {
+    background-color: #FFF;
+    color: rgba(23, 23, 23, 0.47);
+}
+
+#title {
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+#services {
+    text-align: center;
+    font-size: 24pt;
+    padding-bottom: 1%;
+}
+
+#newsletter {
+    text-align: center;
+    font-size: 24pt;
+    padding-top: 10%;
+    padding-bottom: 1%;
+}
+
+#service-list {
+    width: 80%;
+    padding-bottom: 4%;
+}
+
+#service-packages {
+    text-align: center;
+    font-size: 24pt;
+    padding-bottom: 1%;
+    padding-top: 5%;
+}
+
+#package-list {
+    width: 80%;
+    padding-bottom: 4%;
+}
+
+#service-1 {
+    align-items: center;
+}
+
+#service-2 {
+    align-items: center;
+}
+
+#service-3 {
+    align-items: center;
+}
+
+#package-1 {
+    margin: auto;
+}
+
+#package-2 {
+    margin: auto;
+}
+
+#package-3 {
+    margin: auto;
+}
+
+#form {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#company-footer {
+    text-align: center;
+    font-size: 16pt;
+}
+
+#trademark {
+    text-align: center;
+    font-family: abolition, Serif;
+    font-style: italic;
+    font-weight: 100;
+}
+
+#video-show {
+    align-content: center;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+#visual {
+    text-align: center;
+    font-size: 24pt;
+    padding-bottom: 1%;
+}
+
+#nav-bar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
